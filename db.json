@@ -8,7 +8,7 @@
 		"length": "12m",
 		"period": "Late Jurassic",
 		"mya": "156-144",
-    "imageUrl": "../dino-img/dino1.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino1.jpg",
     "price": "£20.00",
 		"info": "Allosaurus was an apex predator in the Late Jurassic in North America."
 	},
@@ -21,7 +21,7 @@
 		"length": "21m",
 		"period": "Late Jurassic",
 		"mya": "154-145",
-    "imageUrl": "./assets/dino2.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino20.jpg",
     "price": "£20.00",
 		"info": "Named the 'deceptive lizard' because its skull was confused with those of other sauropods until 1909."
 	},
@@ -34,7 +34,7 @@
 		"length": "30m",
 		"period": "Late Jurassic",
 		"mya": "155-140",
-    "imageUrl": "./assets/dino3.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino3.JPG",
     "price": "£20.00",
 		"info": "Brachiosaurus was a large, North American sauropod dinosaur with an arch encircling its nasal opening."
 	},
@@ -47,7 +47,7 @@
 		"length": "0.65m",
 		"period": "Late Jurassic",
 		"mya": "145-140",
-    "imageUrl": "./assets/dino4.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino4.jpg",
     "price": "£20.00",
 		"info": "Compsognathus was small and bipedal, roughly the size of a turkey. It lived in Europe and was the first dinosaur genus to be portrayed with feathers."
 	},
@@ -60,7 +60,7 @@
 		"length": "estimated 4m",
 		"period": "Late Cretaceous",
 		"mya": "66",
-    "imageUrl": "./assets/dino5.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino5.jpg",
     "price": "£20.00",
 		"info": "<em>Dracorex hogwartsia</em> was a pachycephalosaur that did not have a domed head. Instead, its skull was adorned with spikes and frills reminiscent of a dragon. A skull was discovered in the Hell Creek Formation in South Dakota and donated to the Children's Museum of Indianapolis in 2004. Its name was inspired by J.K. Rowling's Harry Potter series and the young visitors to the children's museum."
 	},
@@ -73,7 +73,7 @@
 		"length": "14m",
 		"period": "Late Cretaceous",
 		"mya": "80.5",
-    "imageUrl": "./assets/dino6.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino6.jpg",
     "price": "£20.00",
 		"info": "Elasmosaurus was an aquatic dinosaur with an extremely long neck that likely fed on other smaller aquatic fauna like fish, molluscs, and squid. E.D. Cope mistakenly placed the skull of an Elasmosaurus on the much shorter tail rather than the extremely long neck."
 	},
@@ -86,7 +86,7 @@
 		"length": "23m",
 		"period": "Late Jurassic",
 		"mya": "154-142",
-    "imageUrl": "./assets/dino7.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino7.jpg",
     "price": "£20.00",
 		"info": "Giraffatitan was a large sauropod related to Brachiosaurus with huge nostrils and nasal openings in its skull."
 	},
@@ -99,7 +99,7 @@
 		"length": "7m",
 		"period": "Late Cretaceous",
 		"mya": "70-66",
-    "imageUrl": "./assets/dino8.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino8.jpg",
     "price": "£20.00",
 		"info": "Indosuchus had a flattened crest on its skull."
 	},
@@ -112,7 +112,7 @@
 		"length": "5m",
 		"period": "Early Jurassic",
 		"mya": "205-190",
-    "imageUrl": "./assets/dino8.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino9.jpg",
     "price": "£20.00",
 		"info": "Jingshanosaurus was one of the last prosauropods, a long-necked herbivore able to walk on two legs."
 	},
@@ -125,7 +125,7 @@
 		"length": "1.8m",
 		"period": "Late Cretaceous",
 		"mya": "81-75",
-    "imageUrl": "./assets/dino9.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino10.jpg",
     "price": "£20.00",
 		"info": "Khaan was an oviraptor with a parrot-like beak, discovered in Mongolia."
 	},
@@ -138,7 +138,7 @@
 		"length": "3m",
 		"period": "Early Cretaceous",
 		"mya": "121-112",
-    "imageUrl": "./assets/dino10.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino11.jpg",
     "price": "£20.00",
 		"info": "Minmi was a small, anklyosaurian, armored dinosaur discovered in Australia."
 	},
@@ -151,22 +151,9 @@
 		"length": "7m",
 		"period": "Early Cretaceous",
 		"mya": "125-112",
-    "imageUrl": "./assets/dino11.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino19.jpg",
     "price": "£20.00",
 		"info": "Ouranosaurus was an iguanodont dinosaur in Africa. It had a large sail on its back supported by long, wide neural spines and an elnogated, flat skull."
-	},
-	{
-		"id": 13,
-		"name": "Parasaurolophus",
-		"pronunciation": "PARR-eh-saw-ROL-off-us / PARR-eh-sawr-eh-LOH-fus",
-		"meaningOfName": "near crested lizard",
-		"diet": "herbivorous",
-		"length": "11m",
-		"period": "Late Cretaceous",
-		"mya": "76-74",
-    "imageUrl": "./assets/dino12.jpg",
-    "price": "£20.00",
-		"info": "Found in Canada and the USA, Parasaurolophus was a hadrosaur most famous for its long, elaborate cranial crest."
 	},
 	{
 		"id": 14,
@@ -177,7 +164,7 @@
 		"length": "18m",
 		"period": "Early Cretaceous",
 		"mya": "112-97",
-    "imageUrl": "./assets/dino13.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino13.jpg",
     "price": "£20.00",
 		"info": "Spinosaurus was one of the largest carnivorous dinosaurs to walk the Earth. Its diet consisted mostly of fish and the large spines on its back likely formed a sail."
 	},
@@ -190,7 +177,7 @@
 		"length": "12m",
 		"period": "Late Cretaceous",
 		"mya": "68-66",
-    "imageUrl": "./assets/dino14.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino14.jpg",
     "price": "£20.00",
 		"info": "Tyrannosaurus is well-represented in both fiction and history with over 50 specimens discovered. It and was one of the last non-avian dinosaurs to exist before the extinction event. Tyrannosaurus had a massive skull and a long heavy tail."
 	},
@@ -203,7 +190,7 @@
 		"length": "6m",
 		"period": "Early Cretaceous",
 		"mya": "112-100",
-    "imageUrl": "./assets/dino15.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino15.jpg",
     "price": "£20.00",
 		"info": "Found in the USA, Utahraptor resembled velociraptor but much larger, prompting Robert T. Bakker to pronounce it 'Spielberg's raptor' due to the velociraptors in the movie <em>Jurassic Park</em> being portrayed much larger than their historical counterparts."
 	},
@@ -216,7 +203,7 @@
 		"length": "6.5m",
 		"period": "Early Jurassic",
 		"mya": "183-175",
-    "imageUrl": "./assets/dino16.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino16.jpg",
     "price": "£20.00",
 		"info": "Vulcanodon was a primitive sauropod that lived in southern Africa."
 	},
@@ -229,7 +216,7 @@
 		"length": "6m",
 		"period": "Early Cretaceous",
 		"mya": "78.5-77.5",
-    "imageUrl": "./assets/dino17.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino17.jpg",
     "price": "£20.00",
 		"info": "Xenoceratops had horns and a bony frill with elborate ornamentation of projections, knobs, and spikes."
 	},
@@ -242,7 +229,7 @@
 		"length": "1.8m",
 		"period": "Early Cretaceous",
 		"mya": "120-110",
-    "imageUrl": "./assets/dino18.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/IsaJansson/dino-shop-vue-example/master/dino-images/dino18.jpg",
     "price": "£20.00",
 		"info": "An ornithopod dinosaur known only by a partial skull and postcranial fragments, not much about Zephyrosaurus has been discovered."
 	}

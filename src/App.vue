@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/dino-logo1.svg">
-    <router-view/>
+    <img class="site-logo" src="./assets/dino-logo1.svg">
+    <div id="main-content">
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -20,4 +22,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+#main-content {
+  margin: auto;
+  width: 90%;
+}
+.site-logo {
+  width: 100px;
+}
+
 </style>
