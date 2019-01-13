@@ -1,6 +1,6 @@
 # dino-shop-vue-example
 
-> A Vue.js project
+> My first Vue application displaying a list of model dinosaurs on sale (sadly without the sale part of the application in place).
 
 ## Build Setup
 
@@ -29,5 +29,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
