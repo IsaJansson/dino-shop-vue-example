@@ -8,6 +8,9 @@
 # install dependencies
 npm install
 
+# start json server with mocked data
+json-server --watch db.json
+
 # serve with hot reload at localhost:8080
 npm run dev
 

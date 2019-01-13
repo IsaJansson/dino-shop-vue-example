@@ -2,18 +2,14 @@
 // http://nightwatchjs.org/guide#usage
 
 module.exports = {
-  'default e2e tests': function (browser) {
-    // automatically uses dev Server port from /config.index.js
-    // default: http://localhost:8080
-    // see nightwatch.conf.js
-    const devServer = browser.globals.devServerURL
-
+  'Navigate to dino details on click'(browser) {
     browser
-      .url(devServer)
-      .waitForElementVisible('#app', 5000)
-      .assert.elementPresent('.hello')
-      .assert.containsText('h1', 'Welcome to Your Vue.js App')
-      .assert.elementCount('img', 1)
-      .end()
-  }
+      .url('http://localhost:8080/#/')
+      .waitForElementVisible('#list-of-dinos', 2000)
+      .waitForElementVisible(".dino-wrapper:nth-child(1)", 2000)
+      .click(".dino-wrapper:nth-child(1) > a")
+      .waitForElementVisible("#dino-details", 2000)
+      .assert.urlContains('dino/')
+      .end();
+  },
 }
