@@ -2,8 +2,8 @@
 <div id="list-of-dinos" class="container">
   <div class="dino-wrapper" v-for="dino in dinos">
     <router-link v-bind:to="'dino/' + dino.id">
-      <div class="description-overlay">
-        <p v-html="dino.info.length > 100 ? dino.info.slice(0, 60) + '...' : dino.info"></p>
+      <div class="dino-overlay">
+        <p>{{dino.meaningOfName}}</p>
       </div>
       <div class="image-wrapper">
         <img v-bind:src="dino.imageUrl" />
@@ -73,9 +73,9 @@ $break-medium: 992px;
             height: 150px;
         }
 
-        .description-overlay {
+        .dino-overlay {
             position: absolute;
-            top: 70px;
+            top: 80px;
             left: 0;
             display: none;
             width: 100%;
@@ -103,7 +103,7 @@ $break-medium: 992px;
             background-color: #f4f4f4;
             transform: scale(1.1);
 
-            .description-overlay {
+            .dino-overlay {
                 display: flex;
             }
 
